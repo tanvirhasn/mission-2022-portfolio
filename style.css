@@ -14,6 +14,18 @@ body{
 }
 .first-title{
     line-height: 20px;
+    position: relative;
+    left: 10px;
+}
+.first-title::before{
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #FF5959;
+    width: 5.6rem;
+    transform: rotate(90deg);
+    position: relative;
+    top: 82px;
+    left: -53px;
 }
 .half-width{
     width: 50%;
